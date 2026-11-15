@@ -170,19 +170,34 @@ Two consequences worth writing into the methodology:
 
 ## 4. Volume accounting (what 10,000 means here)
 
-| Source | Images | Status |
-|---|---|---|
-| DrBimmer | 2,300 | verified, available now |
-| CarDD | 4,000 | verified count; access pending licence form |
-| VehiDE | 13,945 | verified count; access pending download |
-| **Union before dedup** | **20,245** | |
-| **Estimate after dedup + unusable removal** | **≈14,000–18,000** | needs measurement (E0) |
+Full ranking, access steps and overlap analysis: **`docs/06_dataset_sourcing_plan.md`**.
 
-So the 10,000 target is reachable **if** CarDD and/or VehiDE access succeeds; VehiDE alone
-suffices. If access fails, the honest ceiling is 2,300 images plus any small secondaries, and
-the thesis plan must switch to **Plan B**: label the full 2,300 with expert triage at roughly
-8 s/image (≈5 h per annotator pass) and spend the saved effort on multi-view grouping and
-error analysis rather than on volume.
+| Tier | Sources | Raw images | Status |
+|---|---|---|---|
+| A — free, no application | VehiDE 13,945 · Zenodo minor dent 2,241 · DrBimmer 2,300 · TartesiaDS 108 | **18,594** | counts verified; needs Kaggle account for VehiDE |
+| B — free, account or signed form | CarDD 4,000 · Roboflow 4 sets (~19,000 reported) | **~23,000 reported** | CarDD form + Roboflow account |
+| **Union before dedup** | | **~41,000** | |
+| **Estimate after dedup + unusable removal** | | **9,000–13,000** | to be measured in E0 |
+
+So the 10,000 target is reachable without paying for data; the binding constraint is
+**duplicate overlap** between the Roboflow re-uploads and **hazard coverage** (how many images
+actually show a tyre, wheel, fluid or glass finding), not raw volume. Both are measured in E0
+before any model is trained.
+
+If access fails entirely, the honest ceiling is 2,300 images plus small secondaries, and the
+plan switches to **Plan B**: label the full 2,300 with expert triage at roughly 8 s/image
+(≈5 h per annotator pass) and spend the saved effort on multi-view grouping and error
+analysis rather than on volume.
+
+### Session-2 additions to this inventory
+
+Added after a second search pass (see `docs/06_dataset_sourcing_plan.md` for the ranked queue):
+Zenodo Minor Dent Detection (2,241, CC BY 4.0), Roboflow Curacel AI (6.8k, 23 classes),
+Roboflow Automobile Damage Detection (6,957, 14 classes), Roboflow Car Damaged Severity
+Detection (3.1k, incl. `flat-tire` and `detachment`), Roboflow CSP650 severity (1,692,
+minor/moderate/severe), TartesiaDS (108, insurer use case, free for academic research),
+Kled (5,000 consented photo sets, commercial licence), VinAssessment (536M auction images,
+commercial), Copart/IAAI metadata (taxonomy only), SYNDCAR (245, synthetic).
 
 **Unique vehicles vs unique images.** Vehicle identity is available in *none* of the public
 sources (no VIN, no registration, no incident ID). It must be *inferred*: perceptual hash +

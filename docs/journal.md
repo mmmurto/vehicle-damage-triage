@@ -44,3 +44,48 @@ and find out whether any public dataset contains inspection-backed driveability 
   Detection 7k, Car Damaged Severity Detection 3.1k, CSP650 severity 1.7k), Zenodo minor-dent
   (2,241), VehiDE (13,945), CarDD (4,000). Licence verification pending for each.
 - Candidate still needs to confirm: page limit, citation style, title, ethics for annotators.
+
+---
+
+## 2026-11-15 — Session 2: GitHub repository, second dataset pass, 10k sourcing plan
+
+**Goal:** as requested — get everything into the candidate's GitHub with every action pushed,
+and widen the dataset search from 500–1,000 images to the 5,000–10,000 range with *mixed*
+(usable and unusable) damage.
+
+**Done**
+- Created repository `mmmurto/vehicle-damage-triage` (private) and pushed session 1
+  (`9331ff7`). Credential manager supplied the existing GitHub token; no secret was written
+  to disk or to any file in the repo.
+- Noted the SSH key on this machine is not registered with the GitHub account
+  (`Permission denied (publickey)` on `git@ssh.github.com:443`); HTTPS push works, so HTTPS
+  is the transport for now.
+- Second search pass, new candidates found and ranked:
+  - Zenodo Minor Dent Detection — 2,241 images, YOLOv8 boxes, **CC BY 4.0**, DOI 10.5281/zenodo.16934368.
+  - Roboflow Curacel AI `car-damage-detection-5ioys` — 6.8k reported (v1 metadata: 16,326 images), 23 classes.
+  - Roboflow Automobile Damage Detection — 6,957 images (v3), 14 part-level classes.
+  - Roboflow Car Damaged Severity Detection — 3.1k reported, 18 classes incl. `flat-tire`, `detachment`, `car-part-crack`.
+  - Roboflow CSP650 Car Damage Severity Assessment — 1,692 images, `01-minor/02-moderate/03-severe`.
+  - TartesiaDS (insurer use case, Appl. Sci. 2024) — 108 images, free for academic research via Google form.
+  - Kled `useKled/vehicle-damage` — 5,000+ consented photo sets, whole-vehicle→panel→close-up with questionnaire, but **commercial licence** (sample on request).
+  - VinAssessment — 536M+ VIN-linked auction damage images, commercial; Copart/IAAI metadata sets usable only as a label taxonomy (scraping photos violates their terms).
+  - SYNDCAR — 245 synthetic images, excluded from test use.
+- Wrote `docs/06_dataset_sourcing_plan.md`: tiered acquisition queue, overlap warning
+  (the 14/18/23-class Roboflow sets are re-uploads of one image pool — counts must never be
+  summed), expected unique yield (9,000–13,000 after dedup), exact download commands, and the
+  auction-primary-damage taxonomy to borrow for the rubric.
+- Updated the inventory CSV to 24 rows with an explicit `count_status` column
+  (verified / reported / unknown) and a `tier` column.
+
+**Findings that change the plan**
+- 10,000 images is reachable for free; the binding constraints are duplicate overlap and
+  **hazard coverage**, not volume. Measure both in E0 before training.
+- Vehicle identity does not exist in any free source → reporting unit is images plus inferred
+  duplicate clusters, not unique vehicles. State this in chapter 3.
+- The `do not drive` class still has the thinnest evidence. Roboflow's 18-class set
+  (flat-tire, detachment) and CSP650 `03-severe` are the best free proxies; auction damage
+  classes (rollover, water/flood, burn) are the categories to check coverage against.
+
+**Blocked on the candidate**
+- Kaggle API token (for VehiDE, 13,945 images), Roboflow API key (4 sets), CarDD licence form.
+- Page limit / citation style / final title still unconfirmed.

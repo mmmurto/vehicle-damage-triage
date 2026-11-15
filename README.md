@@ -20,8 +20,13 @@ three triage categories with the visible evidence and a recommended next step:
 | Dataset inventory (verified + pending) | `docs/02_dataset_inventory.md`, `data/dataset_inventory.csv` | verified for 8 candidates |
 | Labeling guide (observation / action / outcome) | `docs/03_labeling_guide.md` | draft v1 |
 | Labeling pilot | `pilot/04_pilot_report.md`, `pilot/pilot_sample_manifest.csv`, `pilot/pilot_sheet_36_images.png` | sample built, labels open |
+| Dataset sourcing plan to reach 5k–10k | `docs/06_dataset_sourcing_plan.md` | verified counts, ranked queue, access steps |
 | Decisions needed from you | `docs/05_open_questions.md` | open |
 | References | `docs/references.bib` | draft, marked for verification |
+| Process log (one entry per session) | `docs/journal.md` | current |
+
+Repository: https://github.com/mmmurto/vehicle-damage-triage (private). Every session's work is
+committed and pushed, and `docs/journal.md` mirrors the commit history.
 
 ## The single most important finding so far
 
@@ -47,8 +52,9 @@ vehtriage/
 
 ## Immediate next steps (in order)
 
-1. Confirm the university's page limit, citation style and deadline (`docs/05_open_questions.md`).
-2. Approve the labeling rubric, then label the 36 pilot images in `pilot/pilot_sample_manifest.csv`.
-3. Request CarDD via its licence form; download VehiDE from Kaggle; check the licence wording.
-4. Build the dedup + grouping pipeline before any training split exists.
+1. **You:** Kaggle API token, Roboflow API key, CarDD licence form sent (see `docs/06` §4).
+2. **Me:** dedup + audit pipeline (E0) against DrBimmer, ready to run the moment the big
+   downloads land.
+3. Approve the labeling rubric, then label the 36 pilot images in `pilot/pilot_sample_manifest.csv`.
+4. Confirm the university's page limit, citation style and deadline (`docs/05_open_questions.md`).
 5. Only then start the baseline.
