@@ -1,0 +1,132 @@
+% References for the dissertation. Every entry below was checked against a live source on
+% 2026-11-15 unless marked TODO-VERIFY. Fill in [brackets] when you read the paper.
+% Style: IEEE-ish; reformat to your programme's required style before submission.
+
+% ---------- datasets and benchmarks ----------
+
+@article{wang2023cardd,
+  author  = {Wang, Xinkuang and Li, Wenjing and Wu, Zhongcheng},
+  title   = {{CarDD}: A New Dataset for Vision-Based Car Damage Detection},
+  journal = {IEEE Transactions on Intelligent Transportation Systems},
+  year    = {2023},
+  volume  = {24},
+  number  = {7},
+  pages   = {7202--7214},
+  doi     = {10.1109/TITS.2023.3258480}
+}
+
+@article{vehide2024,
+  title   = {Powering {AI}-driven car damage identification based on {VehiDE} dataset},
+  journal = {Journal of Information and Telecommunication},
+  year    = {2024},
+  doi     = {10.1080/24751839.2024.2367387},
+  note    = {TODO-VERIFY: confirm author list and volume/pages from the article page}
+}
+
+@misc{drbimmer2025dataset,
+  author       = {{DrBimmer}},
+  title        = {Comprehensive Car Damage (Car Front and Rear Damage Detection)},
+  year         = {2025},
+  howpublished = {Hugging Face Datasets},
+  note         = {Revision 355b0990, 2,300 images, MIT licence tag},
+  url          = {https://huggingface.co/datasets/DrBimmer/comprehensive-car-damage}
+}
+
+@misc{roboflow_dentdetection,
+  author       = {{DentDetection}},
+  title        = {Car Damage Dataset},
+  howpublished = {Roboflow Universe},
+  url          = {https://universe.roboflow.com/dentdetection-ouw7c/car-damage-8qbpa},
+  note         = {431 images, 9 classes incl. Flat Tire; check licence per version}
+}
+
+@inproceedings{krause2013cars,
+  author    = {Krause, Jonathan and Stark, Michael and Deng, Jia and Fei-Fei, Li},
+  title     = {3D Object Representations for Fine-Grained Categorization},
+  booktitle = {4th International IEEE Workshop on 3D Representation and Recognition (3dRR-13)},
+  year      = {2013}
+}
+
+% ---------- domain / safety reference standards ----------
+
+@misc{govuk_mot_visibility,
+  author       = {{Driver and Vehicle Standards Agency}},
+  title        = {{MOT} inspection manual: cars and passenger vehicles -- 3. Visibility},
+  howpublished = {GOV.UK guidance},
+  url          = {https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/3-visibility},
+  note         = {Section 3.2: Zone A damage > 10 mm, remainder of swept area > 40 mm, failure only where the driver's view is significantly affected. Accessed 2026-11-15}
+}
+
+% ---------- methods ----------
+
+@inproceedings{he2016resnet,
+  author    = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  title     = {Deep Residual Learning for Image Recognition},
+  booktitle = {IEEE CVPR},
+  year      = {2016},
+  pages     = {770--778}
+}
+
+@inproceedings{dosovitskiy2021vit,
+  author    = {Dosovitskiy, Alexey and others},
+  title     = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  booktitle = {ICLR},
+  year      = {2021}
+}
+
+@inproceedings{liu2022convnext,
+  author    = {Liu, Zhuang and Mao, Hanzi and Wu, Chao-Yuan and Feichtenhofer, Christoph and Darrell, Trevor and Xie, Saining},
+  title     = {A {ConvNet} for the 2020s},
+  booktitle = {IEEE/CVF CVPR},
+  year      = {2022}
+}
+
+@inproceedings{selvaraju2017gradcam,
+  author    = {Selvaraju, Ramprasaath R. and Cogswell, Michael and Das, Abhishek and Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+  title     = {Grad-{CAM}: Visual Explanations from Deep Networks via Gradient-Based Localization},
+  booktitle = {IEEE ICCV},
+  year      = {2017}
+}
+
+@inproceedings{guo2017calibration,
+  author    = {Guo, Chuan and Pleiss, Geoff and Sun, Yu and Weinberger, Kilian Q.},
+  title     = {On Calibration of Modern Neural Networks},
+  booktitle = {ICML},
+  year      = {2017}
+}
+
+@inproceedings{geifman2017selective,
+  author    = {Geifman, Yonatan and El-Yaniv, Ran},
+  title     = {Selective Classification for Deep Neural Networks},
+  booktitle = {NeurIPS},
+  year      = {2017}
+}
+
+% ---------- data documentation / ethics ----------
+
+@article{gebru2021datasheets,
+  author  = {Gebru, Timnit and Morgenstern, Jamie and Vecchione, Briana and others},
+  title   = {Datasheets for Datasets},
+  journal = {Communications of the ACM},
+  year    = {2021},
+  volume  = {64},
+  number  = {12},
+  pages   = {86--92}
+}
+
+@article{mitchell2019modelcards,
+  author  = {Mitchell, Margaret and Wu, Simone and Zaldivar, Andrew and others},
+  title   = {Model Cards for Model Reporting},
+  journal = {Proceedings of FAT*},
+  year    = {2019}
+}
+
+% ---------- to find and verify during the literature review ----------
+% TODO-VERIFY: Jameel, M. et al., multi-task image regression for leasing vehicle return
+%   assessment (ECML PKDD 2020) -- 40,000 appraisal reports, 342,029 photos. PDF seen at
+%   ismll.uni-hildesheim.de; confirm full citation.
+% TODO-VERIFY: Patil, K. et al., "Car damage severity detection" style papers -- confirm.
+% TODO-VERIFY: perceptual hashing for near-duplicate detection (Zauner 2010 thesis) -- confirm.
+% TODO-VERIFY: CompCars (Yang et al., CVPR 2015) -- confirm exact dataset size before citing.
+% TODO-FIND: any published vision system that outputs a driveability/tow decision. If none
+%   exists, that gap is a contribution of this thesis and should be argued explicitly.

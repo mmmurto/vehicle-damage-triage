@@ -1,0 +1,218 @@
+[
+ {
+  "file": "F_Breakage/FB_26.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 179257
+ },
+ {
+  "file": "F_Breakage/FB_101.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 190224
+ },
+ {
+  "file": "F_Breakage/FB_176.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 132513
+ },
+ {
+  "file": "F_Breakage/FB_251.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 95417
+ },
+ {
+  "file": "F_Breakage/FB_326.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 156851
+ },
+ {
+  "file": "F_Breakage/FB_401.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 123457
+ },
+ {
+  "file": "F_Crushed/FC_21.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 98331
+ },
+ {
+  "file": "F_Crushed/FC_81.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 151415
+ },
+ {
+  "file": "F_Crushed/FC_141.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 77986
+ },
+ {
+  "file": "F_Crushed/FC_201.jpg",
+  "w": 960,
+  "h": 720,
+  "bytes": 71472
+ },
+ {
+  "file": "F_Crushed/FC_261.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 113455
+ },
+ {
+  "file": "F_Crushed/FC_321.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 182851
+ },
+ {
+  "file": "F_Normal/FN_26.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 73913
+ },
+ {
+  "file": "F_Normal/FN_101.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 178146
+ },
+ {
+  "file": "F_Normal/FN_176.png",
+  "w": 1226,
+  "h": 616,
+  "bytes": 939862
+ },
+ {
+  "file": "F_Normal/FN_251.png",
+  "w": 1110,
+  "h": 810,
+  "bytes": 958312
+ },
+ {
+  "file": "F_Normal/FN_326.jpg",
+  "w": 1640,
+  "h": 1356,
+  "bytes": 427098
+ },
+ {
+  "file": "F_Normal/FN_401.png",
+  "w": 1284,
+  "h": 1036,
+  "bytes": 1436930
+ },
+ {
+  "file": "R_Breakage/RB_16.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 123366
+ },
+ {
+  "file": "R_Breakage/RB_63.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 187553
+ },
+ {
+  "file": "R_Breakage/RB_108.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 155993
+ },
+ {
+  "file": "R_Breakage/RB_153.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 159824
+ },
+ {
+  "file": "R_Breakage/RB_198.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 126971
+ },
+ {
+  "file": "R_Breakage/RB_244.jpg",
+  "w": 800,
+  "h": 1067,
+  "bytes": 421000
+ },
+ {
+  "file": "R_Crushed/RC_16.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 163890
+ },
+ {
+  "file": "R_Crushed/RC_61.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 145113
+ },
+ {
+  "file": "R_Crushed/RC_106.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 113236
+ },
+ {
+  "file": "R_Crushed/RC_151.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 129306
+ },
+ {
+  "file": "R_Crushed/RC_196.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 140641
+ },
+ {
+  "file": "R_Crushed/RC_241.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 125295
+ },
+ {
+  "file": "R_Normal/RN_16.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 104458
+ },
+ {
+  "file": "R_Normal/RN_61.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 113977
+ },
+ {
+  "file": "R_Normal/RN_106.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 117679
+ },
+ {
+  "file": "R_Normal/RN_151.jpg",
+  "w": 800,
+  "h": 600,
+  "bytes": 115723
+ },
+ {
+  "file": "R_Normal/RN_196.jpg",
+  "w": 1398,
+  "h": 766,
+  "bytes": 211121
+ },
+ {
+  "file": "R_Normal/RN_241.jpg",
+  "w": 1224,
+  "h": 678,
+  "bytes": 198696
+ }
+]

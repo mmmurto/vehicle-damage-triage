@@ -1,0 +1,41 @@
+# local scratch and downloads
+_scratch/
+data/raw/
+data/processed/
+data/interim/
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# node
+node_modules/
+bun.lock
+package-lock.json
+
+# model artefacts
+runs/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# secrets
+.env
+*.token
