@@ -89,3 +89,56 @@ and widen the dataset search from 500–1,000 images to the 5,000–10,000 range
 **Blocked on the candidate**
 - Kaggle API token (for VehiDE, 13,945 images), Roboflow API key (4 sets), CarDD licence form.
 - Page limit / citation style / final title still unconfirmed.
+
+---
+
+## 2026-11-15 — Session 3: Kaggle access, VehiDE downloaded, audit (E0 part 1)
+
+**Goal:** get the credential working and pull the volume backbone, then measure what it
+actually contains before writing any model code.
+
+**Done**
+- Kaggle token (new inline format) tested: username `mmurto`, both basic-auth and bearer
+  work (HTTP 200). The Kaggle CLI is unusable on this machine (the `python` on PATH is the
+  Microsoft Store stub), so downloads go through the REST API with curl. Credentials live in
+  `C:\Users\mmirz\.kaggle\kaggle.json`, outside the repo, never committed.
+- Downloaded VehiDE: 2.25 GB, zip integrity verified, 24 s to extract, 13,947 files.
+- Wrote `scripts/audit_vehide.mjs` (VIA-format audit: counts, class distribution, missing
+  files, resolution sample) and `scripts/vehide_group_analysis.mjs` (session-group derivation
+  from filenames + split-leakage measurement).
+- Wrote `docs/07_vehide_audit.md`.
+
+**Verified facts about VehiDE**
+- 11,621 train + 2,324 val = **13,945 images**, matching the paper. 0 missing, 0 orphan
+  annotations, **100% of images carry at least one damage region**.
+- **36,081 polygon regions across 7 classes** (paper says 8 — discrepancy logged):
+  `tray_son` scratch 14,647 · `mop_lom` dent 5,681 · `rach` tear 5,509 ·
+  `mat_bo_phan` missing part 2,818 · `be_den` broken lamp 2,782 · `thung` puncture 2,423 ·
+  `vo_kinh` broken glass 2,221. Class names are Vietnamese and unaccented; translation is a
+  working interpretation pending confirmation.
+- Median image width 1,632 px (vs 800 for DrBimmer) — good enough for panel and glass detail.
+- **No tyre, wheel, suspension or fluid class.** The hazard evidence the "do not drive"
+  category depends on is absent.
+
+**The headline result**
+Filenames encode capture timestamps, so grouping by timestamp approximates same-vehicle
+sessions. Against the shipped train/val split: **79.8% of validation images share a session
+group with training images at minute granularity, 97.7% at hour granularity.** The published
+split is effectively random at image level, so published VehiDE metrics are optimistic.
+Decision: build our own grouped split and report the shipped-split number only as a
+leakage-effect comparison.
+
+**Consequences**
+- Volume target met from one source; remaining datasets now serve diversity, undamaged
+  negatives (VehiDE has none) and hazard coverage, not image count.
+- Triage labels cannot be mapped from VehiDE's 7 classes; they need expert labeling plus
+  rule-based evidence flags.
+- "Do not drive" still depends on Roboflow's `flat-tire`/`detachment` set and CarDD
+  `tire_flat`. If hazard coverage stays near zero, the thesis falls back to the binary
+  hazard + coverage formulation and says so in chapter 8.
+
+**Next**
+- Perceptual-hash dedup within VehiDE and across DrBimmer (E0 part 2).
+- Tyre/wheel visibility census on 500 sampled images (decides whether the rubric's coverage
+  rule is realistic).
+- Grouped split builder with the vehicle-session key.

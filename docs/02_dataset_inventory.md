@@ -73,6 +73,7 @@ official release and cite it.
 | Licence (declared on Kaggle) | **Apache 2.0** (uploader-set; the paper is open access). Verify against the article before relying on it |
 | Image source | insurance/assessment photography — **images come from claims, but labels are damage instances, not claim outcomes** |
 | Verdict | **PRIMARY**. Largest verified source; alone it exceeds the 10,000 target. Also the most likely to contain genuine tyre/wheel/structural damage. |
+| **Audited 2026-11-15** | 13,945 images and 13,945 annotation entries confirmed; 36,081 polygon regions; **7** classes in the release (paper claims 8); **100% of images contain damage — no undamaged vehicles**; median image width 1,632 px; **shipped train/val split leaks ~80% at minute-level session grouping**. Full details: `docs/07_vehide_audit.md`. |
 
 ### 1.4 AutoDamageIQ (`tugberkkalay/autodamageiq-vehicle-damage-dataset`)
 
