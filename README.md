@@ -13,6 +13,14 @@ three triage categories with the visible evidence and a recommended next step:
 
 ## Proposal defence — current continuation
 
+### Latest version — simple English (v3)
+
+Use these two files for rehearsal and presenting:
+- [Simple-English PowerPoint v3](presentations/proposal-defence/Car_Damage_Presentation_Simple_English_v3.pptx)
+- [Matching simple-English Word script v3](presentations/proposal-defence/Five_Minute_Script_Simple_English_v3.docx)
+
+The visual layout is kept, but the slide text and spoken explanation use shorter sentences and everyday words. Eight main slides plus two backup source slides; five-minute target. Older versions below are retained for history, not the recommended speaking version.
+
 The five-minute proposal pack is in [`presentations/proposal-defence/`](presentations/proposal-defence/):
 - **[Redesigned PowerPoint v2: 8 timed slides + 2 source appendices](presentations/proposal-defence/Vehicle_Damage_Proposal_Designed_v2.pptx)** — current presentation; original vector artwork, decision cards, data dashboard and pipeline diagram.
 - **[Word speaking script v2](presentations/proposal-defence/Five_Minute_Defence_Script_v2.docx)** — matching timing, stage directions and examiner questions.
