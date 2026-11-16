@@ -14,8 +14,11 @@ three triage categories with the visible evidence and a recommended next step:
 ## Proposal defence — current continuation
 
 The five-minute proposal pack is in [`presentations/proposal-defence/`](presentations/proposal-defence/):
-- [PowerPoint: 8 timed slides + 3 source appendices](presentations/proposal-defence/vehicle_damage_proposal_defence.pptx)
-- [Speaker script and examiner questions](presentations/proposal-defence/five_minute_script_and_questions.md)
+- **[Redesigned PowerPoint v2: 8 timed slides + 2 source appendices](presentations/proposal-defence/Vehicle_Damage_Proposal_Designed_v2.pptx)** — current presentation; original vector artwork, decision cards, data dashboard and pipeline diagram.
+- **[Word speaking script v2](presentations/proposal-defence/Five_Minute_Defence_Script_v2.docx)** — matching timing, stage directions and examiner questions.
+- [Earlier plain PowerPoint draft](presentations/proposal-defence/vehicle_damage_proposal_defence.pptx) and [earlier Markdown script](presentations/proposal-defence/five_minute_script_and_questions.md) retained for history.
+
+**Requirements clarification:** the teacher screenshot explicitly requests a five-minute presentation and calls the supplied Chinese task sheet (任务书) and opening report (开题报告) examples of files to prepare. Written documents may also be expected; exact first-session submission requirements and deadlines need teacher confirmation. Supporting inventories/protocols are research deliverables from the broader user request, not extra requirements proven by those examples.
 - [One-page proposal](presentations/proposal-defence/docs/PROJECT_PROPOSAL.md)
 - [70-page outline and 40-page fallback](presentations/proposal-defence/docs/DISSERTATION_OUTLINE.md)
 - [Supplemental candidate inventory](presentations/proposal-defence/research/dataset_inventory.csv)

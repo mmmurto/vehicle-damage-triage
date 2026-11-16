@@ -168,3 +168,9 @@ leakage-effect comparison.
 
 **Next**
 Confirm presentation details, inspect/rehearse slides, reproduce the archive audit when the existing raw-data location is supplied, validate cross-source dedup and incident grouping, secure rights and recruit qualified review before scaling labels.
+
+### Session 4 follow-up — visual redesign and Word rehearsal script
+
+User requested a less basic PPTX, the speaking script in Word, and clarification on what the Chinese examples require. Added `Vehicle_Damage_Proposal_Designed_v2.pptx` (8 core slides + 2 source backups) and `Five_Minute_Defence_Script_v2.docx`. Slides now use original editable vector illustration, category cards, numerical data dashboard, pipeline diagram and evidence/inspection trade-off illustration (not invented experimental curves). Word contains slide-by-slide speech, timing, stage cues and examiner answers. Reopened Office files and checked slide shape bounds; no PowerPoint visual rendering or exact Word pagination check was performed. Original drafts retained.
+
+Clarification: presentation explicitly required; Chinese task sheet and proposal report described as examples of files to prepare, so written submissions may also be expected. Exact first-session requirements must be confirmed; research inventories were requested in the broader project brief, not mandated by the examples. No training/data-collection action undertaken in this follow-up. Two final user-facing deliverables only.
