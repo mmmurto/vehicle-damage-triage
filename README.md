@@ -11,6 +11,19 @@ three triage categories with the visible evidence and a recommended next step:
 2. **Do not drive** — visible hazard (shredded tyre, displaced wheel, etc.); professional assessment first.
 3. **Inspection required** — photos incomplete/unclear, or a safety-critical issue is unresolved.
 
+## Proposal defence — current continuation
+
+The five-minute proposal pack is in [`presentations/proposal-defence/`](presentations/proposal-defence/):
+- [PowerPoint: 8 timed slides + 3 source appendices](presentations/proposal-defence/vehicle_damage_proposal_defence.pptx)
+- [Speaker script and examiner questions](presentations/proposal-defence/five_minute_script_and_questions.md)
+- [One-page proposal](presentations/proposal-defence/docs/PROJECT_PROPOSAL.md)
+- [70-page outline and 40-page fallback](presentations/proposal-defence/docs/DISSERTATION_OUTLINE.md)
+- [Supplemental candidate inventory](presentations/proposal-defence/research/dataset_inventory.csv)
+
+Current user target: **70-page report; >20,000 usable real unique images, with 50,000+ a conditional stretch goal**. University page-count rules and the approved title/language/deadline are pending. Prior VehiDE audit counts are preserved, not re-run; the existing 36-image pilot has open expert labels. The proposed 60-case protocol extends that pilot rather than replacing completed annotations.
+
+**Read [continuation review](docs/08_continuation_review.md) before citing earlier audit claims:** timestamp-group overlap is a leakage warning, not verified same-vehicle leakage or demonstrated performance inflation. Uploader license tags do not resolve upstream photo rights. No actual-driveability or trained-model results are claimed.
+
 ## Status of the first assignment
 
 | Deliverable | File | Status |
@@ -25,7 +38,7 @@ three triage categories with the visible evidence and a recommended next step:
 | References | `docs/references.bib` | draft, marked for verification |
 | Process log (one entry per session) | `docs/journal.md` | current |
 
-Repository: https://github.com/mmmurto/vehicle-damage-triage (private). Every session's work is
+Repository: https://github.com/mmmurto/vehicle-damage-triage (publicly readable at continuation review). Every session's work is
 committed and pushed, and `docs/journal.md` mirrors the commit history.
 
 ## The single most important finding so far
@@ -52,7 +65,7 @@ vehtriage/
 
 ## Immediate next steps (in order)
 
-1. **You:** Kaggle API token, Roboflow API key, CarDD licence form sent (see `docs/06` §4).
+1. **You:** confirm approved title, presentation language/date, handbook and whether a live software demo is expected; arrange permissions (including CarDD) and authenticated access as needed. Do not paste tokens/passwords into chat.
 2. **Me:** dedup + audit pipeline (E0) against DrBimmer, ready to run the moment the big
    downloads land.
 3. Approve the labeling rubric, then label the 36 pilot images in `pilot/pilot_sample_manifest.csv`.

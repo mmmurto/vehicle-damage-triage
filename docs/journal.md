@@ -142,3 +142,29 @@ leakage-effect comparison.
 - Tyre/wheel visibility census on 500 sampled images (decides whether the rubric's coverage
   rule is realistic).
 - Grouped split builder with the vehicle-session key.
+
+---
+
+## 2026-11-16 — Session 4: five-minute proposal defence and continuation review
+
+**Priority requested:** prepare the first proposal defence before expanding implementation. Current targets: a 70-page dissertation; >20,000 usable real unique images, 50,000+ as a conditional stretch goal.
+
+**Done**
+- Read both supplied images and both example Word documents. The Word documents are another student's GNN examples, not the approved vehicle-damage title. Teacher screenshot requests a five-minute proposal defence.
+- After the user enabled public repository access, cloned and reviewed base `3482f30`, including the previous VehiDE audit, pilot, guide, inventory and scripts. Preserved earlier work.
+- Prepared `presentations/proposal-defence/`: eight timed English proposal slides (300 seconds allocated, embedded notes), three backup source appendices, speech/Q&A, compact editable proposal, 70/40-page budgets, supplemental dataset inventory, source ledger, pilot extension and evaluation protocol.
+- Reopened generated PPTX/DOCX to check structure; all slide shape bounds checked programmatically. No PowerPoint visual rendering or Word pagination check was available; rehearse and inspect before presenting.
+- Additional leads include a 19,100-image Roboflow version (rights/provenance pending) and AI-Hub's reported 632,694-image accident collection (Korean-national application restriction; estimate records are not roadworthiness labels). No source counts were added into a fictitious unique total.
+- Added `docs/08_continuation_review.md`: qualifies the previous timestamp-group overlap interpretation and identifies unresolved fluid/glass, annotation validity and upstream rights issues.
+- Added the generation script for reproducibility. No raw photos or credentials are included in this session's new files.
+
+**Not done / limitations**
+- Prior archive counts were reviewed, not re-run. No new vehicle-photo archives downloaded; no completed expert pilot labels or agreement, no trained model, no model performance experiments.
+- Existing 36-image sample remains the starting point; 60 cases is a proposed extension.
+- Official title, presenter details, presentation language/date, handbook and live-demo expectation remain pending.
+
+**Publication**
+- Prepared on branch `docs/proposal-defence-2026-11-16`; remote push success must be checked against the command result and remote commit ID, not assumed from this log.
+
+**Next**
+Confirm presentation details, inspect/rehearse slides, reproduce the archive audit when the existing raw-data location is supplied, validate cross-source dedup and incident grouping, secure rights and recruit qualified review before scaling labels.
