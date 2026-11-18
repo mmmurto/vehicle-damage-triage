@@ -13,7 +13,13 @@ three triage categories with the visible evidence and a recommended next step:
 
 ## Proposal defence — current continuation
 
-### Latest defence pack — proposal first (v4)
+### Latest presentation — real photos (v5)
+
+Use **[Presentation_Real_Photos_v5.pptx](presentations/real-photo-v5/Presentation_Real_Photos_v5.pptx)** and the **[matched Word speech](presentations/real-photo-v5/Photo_Presentation_Script_v5.docx)**. Nine main slides (including two quick photo-led examples), five question/credit backups, 4:10 speech target. Real photos compare a roof-down BMW M4 with a roof-crushed Honda CR-V, plus surface scrapes, flat tire and incomplete front-impact evidence. [Photo sources, authors, licenses and changes](presentations/real-photo-v5/PHOTO_SOURCES.md) are documented. These are licensed presentation illustrations, NOT additions to the audited training collection or verified inspection labels.
+
+Design-aware evaluation is a planned challenge: include intact and damaged convertibles as well as intact and damaged fixed-roof vehicles. Do not equate roof-down with damage, or convertible design with a safe car. No new trained-model result or proven novelty is claimed. The v4 printable proposal below remains the print document; v5 replaces only the presentation and matched speech.
+
+### Latest printable proposal — proposal first (v4)
 
 Following new peer feedback about the defence, the current recommended files are in **[presentations/tomorrow-defence/](presentations/tomorrow-defence/START_HERE.md)**:
 - **[Print proposal PDF — 8 pages](presentations/tomorrow-defence/PRINT_Proposal.pdf)** and [editable Word proposal](presentations/tomorrow-defence/Proposal_Editable.docx).

@@ -1,0 +1,51 @@
+[
+  {
+    "file": "m4_roof_down.jpg",
+    "author": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_BMW_M4_Competition_Convertible.jpg",
+    "changes": "Resized and JPEG re-encoded; aspect ratio retained. Any detail crop explicitly labeled.",
+    "role": "Presentation illustration only; not a dataset acquisition or expert test label.",
+    "sha256": "4cfde184574f60a5772d622590569b5d6c81863a266d2a854353e70e74bb47aa"
+  },
+  {
+    "file": "suv_roof_crush.jpg",
+    "author": "Ryanandlenny",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:CR-V-Accident.jpg",
+    "changes": "Resized and JPEG re-encoded; aspect ratio retained. Any detail crop explicitly labeled.",
+    "role": "Presentation illustration only; not a dataset acquisition or expert test label.",
+    "sha256": "33c75c54e22d4bc2700b00756d3c71679f1c48224fac7878a286e74e4c2c2965"
+  },
+  {
+    "file": "flat_tire.jpg",
+    "author": "Tiia Monto",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Broken_tire.jpg",
+    "changes": "Resized and JPEG re-encoded; aspect ratio retained. Any detail crop explicitly labeled.",
+    "role": "Presentation illustration only; not a dataset acquisition or expert test label.",
+    "sha256": "fd6099ccc03af3c3ef1b557dea03114fa901628bd59cac3d98fcb46045b83967"
+  },
+  {
+    "file": "front_damage.jpg",
+    "author": "Uiliam Nörnberg",
+    "license": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/close-up-of-the-side-of-a-car-with-scratches-on-the-front-fender-24960483/",
+    "changes": "Resized and JPEG re-encoded; aspect ratio retained. Any detail crop explicitly labeled.",
+    "role": "Presentation illustration only; not a dataset acquisition or expert test label.",
+    "sha256": "810439a9fe2d7584e62498204457ed4f689665e8af5b6a227db1efaa2ae3506a"
+  },
+  {
+    "file": "surface_detail.jpg",
+    "author": "Uiliam Nörnberg",
+    "license": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/close-up-of-the-side-of-a-car-with-scratches-on-the-front-fender-24960483/",
+    "changes": "Detail crop of lower front bumper scrapes; remainder of damaged vehicle deliberately not shown. Derived from front_damage.jpg source, not a separate example.",
+    "role": "Visible surface-finding illustration only; insufficient whole-car coverage."
+  }
+]
