@@ -13,7 +13,17 @@ three triage categories with the visible evidence and a recommended next step:
 
 ## Proposal defence — current continuation
 
-### Latest version — simple English (v3)
+### Latest defence pack — proposal first (v4)
+
+Following new peer feedback about the defence, the current recommended files are in **[presentations/tomorrow-defence/](presentations/tomorrow-defence/START_HERE.md)**:
+- **[Print proposal PDF — 8 pages](presentations/tomorrow-defence/PRINT_Proposal.pdf)** and [editable Word proposal](presentations/tomorrow-defence/Proposal_Editable.docx).
+- **[Presentation v4](presentations/tomorrow-defence/Presentation_Under_5_Minutes_v4.pptx)** — 7 main slides, 2 detailed-workflow backups; script targets 4:15 to leave a buffer.
+- **[Simple defence guide and matched script](presentations/tomorrow-defence/READ_Defence_Guide_and_Script.docx)** — dataset facts, workflow explanation and 30 likely questions.
+- **[Two detailed workflow diagrams](presentations/tomorrow-defence/Workflow_Diagrams.pdf)** — both also embedded in the proposal.
+
+**Before printing:** fill identity fields and confirm the approved title. The PDF currently has clear blanks. The proposal follows the supplied sample's section order; it is not a verified official university form. Completed research preparation and planned model/expert-review work are clearly separated. Only the proposal is recommended for printing based on the friend's report; confirm the teacher's final instructions.
+
+### Earlier version — simple English (v3)
 
 Use these two files for rehearsal and presenting:
 - [Simple-English PowerPoint v3](presentations/proposal-defence/Car_Damage_Presentation_Simple_English_v3.pptx)

@@ -178,3 +178,17 @@ Clarification: presentation explicitly required; Chinese task sheet and proposal
 ### Follow-up — simpler English (v3)
 
 The user found the slide and script language too difficult. Replaced academic wording with short, everyday explanations in both the slide text and full speaking script. Kept the designed slide layout and the three category names, with simple definitions. The new Word script has slide-by-slide speech, timing, reminders and simple question answers. Eight main slides, two backup source slides, 300-second target and approximately 690 spoken words; real timing requires rehearsal. Kept safety limits, prior-count attribution and unfinished-work statements. No data/model results changed. Reopened both Office files and checked slide bounds; visual rendering and exact Word pagination remain unchecked. Recommended files are `Car_Damage_Presentation_Simple_English_v3.pptx` and `Five_Minute_Script_Simple_English_v3.docx`. Older versions retained.
+
+### Urgent follow-up — proposal-first defence pack (v4)
+
+The user reported a friend's proposal defence experience: talks stopped at five minutes, panel emphasis on the printed proposal, and recommendation to print the proposal. Two new attachments were inspected: they are example workflow designs, not official proposal forms. Their clinical-trial content was not copied. The user requested a detailed workflow, completed proposal and help understanding likely questions. The response uses honest, explainable detail, not deliberate complexity to obstruct examination.
+
+Prepared `presentations/tomorrow-defence/`:
+- Eight-page proposal PDF and editable Word version with the sample Chinese opening-report section sequence. Identity and official title remain unverified; clear blanks are left for completion before printing. English language and unofficial form status are explicit.
+- Two original workflows: research/data-to-final-test process, and one-car photo-to-action decision process. High-resolution PNG, editable SVG, full-page vector PDF and embedded proposal figures. Clear visible hazards precede incomplete-view routing; unusable input means inspection/retake, never low concern.
+- Seven-slide main talk with two question-only detailed-diagram backups. Matching script: 519 words, 255 seconds allocated (4:15) with a 45-second buffer. Actual timing requires rehearsal.
+- Plain-English guide explaining completed vs planned work, dataset numbers, workflow stages, 30 likely examiner questions and a pre-defence checklist.
+
+Rechecked primary references. Completed VehiDE authors and final issue details in `docs/references.bib`: 2025, volume 9(1), pp. 24–43; first online publication June 2024. Preserved the old citation key. Added no invented performance results, unique-car counts, official identity or deadline. Prior VehiDE archive numbers were reviewed, not reproduced. Expert pilot action labels and model training/testing remain unfinished.
+
+Verification: reopened Office outputs; checked PowerPoint bounds, main/backup slide counts and speech allocation; generated the print PDF from shared content and verified eight pages; rendered all PDF pages and inspected proposal layouts and workflow artwork. Actual Office rendering and exact Word pagination remain unchecked. Source script and provenance/read-me are included for reproduction. No restricted car photos or credentials were added. All new outputs are documented on the existing defence branch; push success is checked separately against the remote commit.

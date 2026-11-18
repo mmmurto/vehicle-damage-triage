@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1450" viewBox="0 0 1500 1450"><rect width="100%" height="100%" fill="white"/>
+<polyline points="480,265 540,265" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="540,265 527.3937405670625,271.08951747755725 527.3937405670625,258.91048252244275" fill="#516479"/>
+<polyline points="960,265 1020,265" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="1020,265 1007.3937405670625,271.08951747755725 1007.3937405670625,258.91048252244275" fill="#516479"/>
+<polyline points="1230,340 1230,365 500,365 500,420 270,420 270,440" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="270,440 263.91048252244275,427.39374056706254 276.08951747755725,427.39374056706254" fill="#516479"/>
+<polyline points="480,515 540,515" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="540,515 527.3937405670625,521.0895174775573 527.3937405670625,508.91048252244275" fill="#516479"/>
+<polyline points="960,515 1020,515" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="1020,515 1007.3937405670625,521.0895174775573 1007.3937405670625,508.91048252244275" fill="#516479"/>
+<polyline points="750,590 750,625 270,625 270,590" fill="none" stroke="#516479" stroke-width="3" stroke-dasharray="8 6"/>
+<polygon points="270,590 276.08951747755725,602.6062594329375 263.91048252244275,602.6062594329375" fill="#516479"/>
+<polyline points="1230,590 1470,590 1470,695 270,695 270,720" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="270,720 263.91048252244275,707.3937405670625 276.08951747755725,707.3937405670625" fill="#516479"/>
+<polyline points="750,695 750,720" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="750,720 743.9104825224427,707.3937405670625 756.0895174775573,707.3937405670625" fill="#516479"/>
+<polyline points="1230,695 1230,720" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="1230,720 1223.9104825224429,707.3937405670625 1236.0895174775571,707.3937405670625" fill="#516479"/>
+<polyline points="270,870 270,895 40,895 40,950 270,950 270,968" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="270,968 263.91048252244275,955.3937405670625 276.08951747755725,955.3937405670625" fill="#516479"/>
+<polyline points="40,950 750,950 750,968" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="750,968 743.9104825224427,955.3937405670625 756.0895174775573,955.3937405670625" fill="#516479"/>
+<polyline points="750,870 750,915 1230,915 1230,968" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="1230,968 1223.9104825224429,955.3937405670625 1236.0895174775571,955.3937405670625" fill="#516479"/>
+<polyline points="480,1080 495,1080 495,1170 1120,1170 1120,1128" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="1120,1128 1126.0895174775571,1140.6062594329376 1113.9104825224429,1140.6062594329376" fill="#516479"/>
+<polyline points="960,1048 1020,1048" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="1020,1048 1007.3937405670625,1054.0895174775571 1007.3937405670625,1041.9104825224429" fill="#516479"/>
+<polyline points="1320,1128 1320,1235" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="1320,1235 1313.9104825224429,1222.3937405670624 1326.0895174775571,1222.3937405670624" fill="#516479"/>
+<polyline points="1440,795 1480,795 1480,1300 1440,1300" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="1440,1300 1452.6062594329376,1293.9104825224429 1452.6062594329376,1306.0895174775571" fill="#516479"/>
+<rect x="60" y="190" width="420" height="150" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="78" y="235" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">Check permission</text>
+<text x="78" y="264" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Record source, version and terms.</text>
+<text x="78" y="293" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Exclude unapproved sources.</text>
+<rect x="540" y="190" width="420" height="150" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="558" y="235" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">Check the files</text>
+<text x="558" y="264" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Count real images and known cars.</text>
+<text x="558" y="293" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Flag blur, crops and missing views.</text>
+<rect x="1020" y="190" width="420" height="150" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="1038" y="235" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">Remove copies; group</text>
+<text x="1038" y="264" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Check exact and similar photos.</text>
+<text x="1038" y="293" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Keep known car / incident groups.</text>
+<rect x="60" y="440" width="420" height="150" rx="18" fill="#DDF3EF" stroke="#B9C9D8" stroke-width="2"/>
+<text x="78" y="485" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">Small review trial</text>
+<text x="78" y="514" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Start with 36 selected images.</text>
+<text x="78" y="543" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Extend toward about 60 cases.</text>
+<rect x="540" y="440" width="420" height="150" rx="18" fill="#DDF3EF" stroke="#B9C9D8" stroke-width="2"/>
+<text x="558" y="485" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">Independent reviews</text>
+<text x="558" y="514" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Two reviewers; expert review.</text>
+<text x="558" y="543" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Record and discuss differences.</text>
+<rect x="1020" y="440" width="420" height="150" rx="18" fill="#DDF3EF" stroke="#B9C9D8" stroke-width="2"/>
+<text x="1038" y="485" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">Create action labels</text>
+<text x="1038" y="514" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Observation / action / outcome.</text>
+<text x="1038" y="543" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">No outcome inferred from photos.</text>
+<rect x="60" y="720" width="420" height="150" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="78" y="765" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">TRAIN ~70%</text>
+<text x="78" y="794" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Learn model weights.</text>
+<text x="78" y="823" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Augmentation allowed here only.</text>
+<rect x="540" y="720" width="420" height="150" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="558" y="765" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">VALIDATION ~15%</text>
+<text x="558" y="794" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Choose model settings and</text>
+<text x="558" y="823" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">inspection / concern cutoffs.</text>
+<rect x="1020" y="720" width="420" height="150" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="1038" y="765" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">TEST ~15%</text>
+<text x="1038" y="794" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Keep hidden until settings freeze.</text>
+<text x="1038" y="823" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Independent source if feasible.</text>
+<rect x="60" y="968" width="420" height="160" rx="18" fill="#DDF3EF" stroke="#B9C9D8" stroke-width="2"/>
+<text x="78" y="1013" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">A. Simple baseline</text>
+<text x="78" y="1042" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Pretrained ResNet-18.</text>
+<text x="78" y="1071" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">One photo -&gt; three actions.</text>
+<rect x="540" y="968" width="420" height="160" rx="18" fill="#DDF3EF" stroke="#B9C9D8" stroke-width="2"/>
+<text x="558" y="1013" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">B. Evidence-based version</text>
+<text x="558" y="1042" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Damage detector + action rules.</text>
+<text x="558" y="1071" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Combine views only if linked.</text>
+<rect x="1020" y="968" width="420" height="160" rx="18" fill="#FFF0D5" stroke="#B9C9D8" stroke-width="2"/>
+<text x="1038" y="1013" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">Choose, then freeze</text>
+<text x="1038" y="1042" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Use validation only.</text>
+<text x="1038" y="1071" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Save model, cutoffs and code ID.</text>
+<rect x="60" y="1235" width="1380" height="130" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="78" y="1280" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">05 TEST ONCE; EXPLAIN THE RESULTS</text>
+<text x="78" y="1309" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Report serious-to-low-concern errors, three-class results and inspection rate.</text>
+<text x="78" y="1338" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Review hard cases. Save logs and write the report. No tuning on the final test.</text>
+<text x="60" y="69" font-family="Arial" font-size="34" font-weight="bold" fill="#152B45">RESEARCH WORKFLOW | How the system will be built</text>
+<text x="60" y="105" font-family="Arial" font-size="20" font-weight="normal" fill="#516479">Proposed process. Earlier data checks exist; expert labeling, model training and testing remain planned.</text>
+<text x="60" y="165" font-family="Arial" font-size="23" font-weight="bold" fill="#087E83">01  GET AND CHECK THE DATA</text>
+<text x="60" y="413" font-family="Arial" font-size="23" font-weight="bold" fill="#087E83">02  BUILD RELIABLE LABELS</text>
+<text x="60" y="693" font-family="Arial" font-size="23" font-weight="bold" fill="#087E83">03  FREEZE GROUPED SPLITS BEFORE TRAINING</text>
+<text x="60" y="939" font-family="Arial" font-size="23" font-weight="bold" fill="#087E83">04  COMPARE TWO PRACTICAL VERSIONS</text>
+<text x="60" y="1421" font-family="Arial" font-size="18" font-weight="normal" fill="#516479">If grouping or expert review is unavailable, state the limitation and narrow the claim. Never invent either.</text>
+<text x="360" y="620" font-family="Arial" font-size="18" font-weight="bold" fill="#087E83">Revise unclear rules; repeat the trial</text>
+<text x="1130" y="1204" font-family="Arial" font-size="18" font-weight="bold" fill="#087E83">Test only after freeze</text>
+</svg>

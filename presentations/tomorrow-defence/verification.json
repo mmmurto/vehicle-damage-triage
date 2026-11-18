@@ -1,0 +1,11 @@
+{
+  "proposal_pdf_pages": 8,
+  "main_slides": 7,
+  "backup_slides": 2,
+  "script_seconds": 255,
+  "script_words": 519,
+  "reference_count": 9,
+  "expert_labels": "not completed",
+  "model_results": "not run",
+  "prior_data_audit": "reviewed, not reproduced"
+}

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1660" viewBox="0 0 1500 1660"><rect width="100%" height="100%" fill="white"/>
+<polyline points="750,250 750,300" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="750,300 743.9104825224427,287.39374056706254 756.0895174775573,287.39374056706254" fill="#516479"/>
+<polyline points="460,355 370,355" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="370,355 382.60625943293746,348.91048252244275 382.60625943293746,361.08951747755725" fill="#516479"/>
+<polyline points="750,420 750,475" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="750,475 743.9104825224427,462.39374056706254 756.0895174775573,462.39374056706254" fill="#516479"/>
+<polyline points="750,600 750,660" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="750,660 743.9104825224427,647.3937405670625 756.0895174775573,647.3937405670625" fill="#516479"/>
+<polyline points="1040,715 1120,715" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="1120,715 1107.3937405670624,721.0895174775573 1107.3937405670624,708.9104825224427" fill="#516479"/>
+<polyline points="750,770 750,835" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="750,835 743.9104825224427,822.3937405670625 756.0895174775573,822.3937405670625" fill="#516479"/>
+<polyline points="460,890 370,890" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="370,890 382.60625943293746,883.9104825224427 382.60625943293746,896.0895174775573" fill="#516479"/>
+<polyline points="750,945 750,1010" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="750,1010 743.9104825224427,997.3937405670625 756.0895174775573,997.3937405670625" fill="#516479"/>
+<polyline points="460,1065 400,1065 400,975 215,975" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="215,975 227.60625943293746,968.9104825224427 227.60625943293746,981.0895174775573" fill="#516479"/>
+<polyline points="750,1120 750,1180" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="750,1180 743.9104825224427,1167.3937405670624 756.0895174775573,1167.3937405670624" fill="#516479"/>
+<polyline points="750,1315 750,1400" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="750,1400 743.9104825224427,1387.3937405670624 756.0895174775573,1387.3937405670624" fill="#516479"/>
+<polyline points="1282,800 1470,800 1470,1475 1445,1475" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="1445,1475 1457.6062594329376,1468.9104825224429 1457.6062594329376,1481.0895174775571" fill="#516479"/>
+<polyline points="215,975 30,975 30,1475 60,1475" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="60,1475 47.39374056706252,1481.0895174775571 47.39374056706252,1468.9104825224429" fill="#516479"/>
+<polyline points="215,435 20,435 20,1370 215,1370 215,1400" fill="none" stroke="#516479" stroke-width="3"/>
+<polygon points="215,1400 208.91048252244278,1387.3937405670624 221.08951747755722,1387.3937405670624" fill="#516479"/>
+<rect x="460" y="150" width="580" height="100" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="478" y="195" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">1. Add photos of one car</text>
+<text x="478" y="224" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Keep view names and case ID if available.</text>
+<rect x="460" y="300" width="580" height="120" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="478" y="345" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">2. Are any photos usable?</text>
+<text x="478" y="374" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Decode files; check blur, light and framing.</text>
+<rect x="60" y="300" width="310" height="135" rx="18" fill="#FFF0D5" stroke="#B9C9D8" stroke-width="2"/>
+<text x="78" y="345" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">Unusable photos</text>
+<text x="78" y="374" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Inspection required.</text>
+<text x="78" y="403" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Request clearer views.</text>
+<rect x="460" y="475" width="580" height="125" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="478" y="520" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">3. Find visible damage</text>
+<text x="478" y="549" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Locate findings; record part, view and uncertainty.</text>
+<rect x="460" y="660" width="580" height="110" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="478" y="705" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">4. Clear serious visible hazard?</text>
+<text x="478" y="734" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Example: shredded tire or displaced wheel.</text>
+<rect x="1120" y="640" width="325" height="160" rx="18" fill="#FBE7E8" stroke="#B9C9D8" stroke-width="2"/>
+<text x="1138" y="685" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">DO NOT DRIVE</text>
+<text x="1138" y="714" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Name the finding.</text>
+<text x="1138" y="743" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Professional assessment</text>
+<text x="1138" y="772" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">before driving.</text>
+<rect x="460" y="835" width="580" height="110" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="478" y="880" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">5. Enough views and no unresolved issue?</text>
+<text x="478" y="909" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Check impact context, glass and nearby wheels.</text>
+<rect x="60" y="820" width="310" height="155" rx="18" fill="#FFF0D5" stroke="#B9C9D8" stroke-width="2"/>
+<text x="78" y="865" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">INSPECTION</text>
+<text x="78" y="898" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">REQUIRED</text>
+<text x="78" y="927" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Explain what is missing</text>
+<text x="78" y="956" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">or cannot be checked.</text>
+<rect x="460" y="1010" width="580" height="110" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="478" y="1055" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">6. Only small cosmetic or no visible damage?</text>
+<text x="478" y="1084" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Use the full submitted evidence; do not guess.</text>
+<rect x="460" y="1180" width="580" height="135" rx="18" fill="#DDF3EF" stroke="#B9C9D8" stroke-width="2"/>
+<text x="478" y="1225" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">LOW VISIBLE CONCERN</text>
+<text x="478" y="1254" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Describe the finding accurately.</text>
+<text x="478" y="1283" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Roadworthiness was not verified.</text>
+<rect x="60" y="1400" width="1385" height="150" rx="18" fill="#EFF5FA" stroke="#B9C9D8" stroke-width="2"/>
+<text x="78" y="1445" font-family="Arial" font-size="25" font-weight="bold" fill="#152B45">7. Show category + visible reason + next step</text>
+<text x="78" y="1474" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Use only evidence visible in the submitted photos. Save findings and missing-view flags.</text>
+<text x="78" y="1503" font-family="Arial" font-size="21" font-weight="normal" fill="#516479">Optional spoken summary reads the same answer. Never claim brakes, steering or engine work.</text>
+<text x="60" y="69" font-family="Arial" font-size="34" font-weight="bold" fill="#152B45">SYSTEM WORKFLOW | How one car will be checked</text>
+<text x="60" y="105" font-family="Arial" font-size="20" font-weight="normal" fill="#516479">Proposed decision process. Clear visible danger takes priority over missing views.</text>
+<text x="60" y="1614" font-family="Arial" font-size="19" font-weight="normal" fill="#516479">Glass: location + extent + effect on driver view. Uncertain liquid is not proof of a particular fluid leak.</text>
+<text x="395" y="341" font-family="Arial" font-size="18" font-weight="bold" fill="#087E83">No</text>
+<text x="770" y="452" font-family="Arial" font-size="18" font-weight="bold" fill="#087E83">Yes</text>
+<text x="1060" y="697" font-family="Arial" font-size="18" font-weight="bold" fill="#087E83">Yes</text>
+<text x="770" y="805" font-family="Arial" font-size="18" font-weight="bold" fill="#087E83">No</text>
+<text x="365" y="870" font-family="Arial" font-size="18" font-weight="bold" fill="#087E83">No / unsure</text>
+<text x="770" y="978" font-family="Arial" font-size="18" font-weight="bold" fill="#087E83">Yes</text>
+<text x="85" y="1023" font-family="Arial" font-size="18" font-weight="bold" fill="#087E83">No / unsure</text>
+<text x="770" y="1154" font-family="Arial" font-size="18" font-weight="bold" fill="#087E83">Yes</text>
+</svg>
